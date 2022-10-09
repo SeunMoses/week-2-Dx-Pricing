@@ -1,0 +1,147 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  
+}
+body{
+  font-family: 'Inter', sans-serif;
+}
+.first-section{
+  /* border: 1px solid purple; */
+  height: 44px;
+  width: 284px;
+  /* justify-content: center; */
+  padding-left: 120px;
+  margin-left: 500px;
+  padding-top: 25px;
+}
+.second-section{
+  /* border: 1px solid tomato; */
+  height: 58px;
+  width: 901px;
+  margin-left: 500px;
+  padding-top: 15px;
+}
+/* .third-section{
+  border: 1px solid black;
+  height: 100x;
+  width: 413px; */
+/* } */
+.third-section{
+  /* border: 2px solid black; */
+  height: 74px;
+  width: 413px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 500px;
+  background: lightgray;
+  border-radius: 20px;
+}
+.first-third-section{
+  /* border: 1px solid green; */
+  height: 50px;
+  width: 50%;
+  background: white;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 15px 45px;
+  /* padding-top: 5px; */
+}
+.second-third-section{
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 50%;
+  padding: 25px 45px;
+}
+.fourth-section{
+  border: 1px solid black;
+  height: 740px;
+  width: 1250px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  margin: 50px 50px;
+  /* margin-left: 50px; */
+  /* margin: 50px 50px; */
+  padding-top: 20px;
+  
+  padding-left: 20px;
+  /* justify-content: space-evenly;  */
+}
+.first-fourth-section{
+  border-right: 1px solid black;
+  height:700px;
+  width: 25%;
+  padding-left: 50px;
+padding-top: 50px;
+}
+.ipsum{
+  margin: 50px 0px;
+}
+.first-download-button{
+  background: black;
+  border: 1px solid black;
+  color: white;
+  width: 200px;
+  height: 52px;
+  margin: 50px 0px;
+  padding: 15px 50px;
+}
+.download-button{
+  background: black;
+  border: 1px solid black;
+  color: white;
+  width: 200px;
+  height: 52px;
+  margin-top: 30px; 
+  margin-bottom: 30px;
+
+  padding: 15px 50px;
+  /* justify-content: center; */
+/* align-items: center; */
+}
+.comment-button{
+  display: flex;
+  flex-direction: row;
+
+}
+.comment-button-holder{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.second-fourth-section{
+  border-right: 1px solid black;
+  height: 700px;
+  width: 25%;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+.lorem{
+margin-left: 3px;
+}
+.third-fourth-section{
+  border-right: 1px solid black;
+  height: 700px;
+  width: 25%;
+  padding-left: 20px;
+  padding-top: 50px;
+
+}
+.fourth-fourth-section{
+  width: 25%;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+.dollar-amount{
+  display: flex;
+  align-items: baseline;
+  font-weight: bold;
+
+}
+.currency-symbol{
+  font-size: 12px;
+}
+.currency-amount{
+  font-size: 25px;
+}
